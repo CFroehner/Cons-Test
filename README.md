@@ -4,11 +4,12 @@
 - **RunModel.R**  
   - Code for the agent based model.
   - Sources landscape files from `StylizedLandscape.R` and precipitation data from `PrecipTimeseries.R` to create the initial landscape and generate precipitation scenarios.
+  - To reproduce experiments from the manuscript, run ABM for `conditions.rds`.
   - ⚠️ Runs may take a long time: running all three scenarios with one setting takes ~45 minutes.  
 
 - **GeneratePlots.R**
-  - Can be used with the provided dataset to reproduce all experiments from the manuscript *without* re-running the model across all conditions.
-  - 📂 Full data available here: [Google Drive link](https://drive.google.com/file/d/1G6POSfm8SaYC4ZBgtwkPUq5TDhat1wRN/view?usp=sharing)  
+  - Can be used to reproduce all experiments from the manuscript
+  - 📂 Full data for reproducing visualizations *without* re-running the model across all conditions: [Google Drive link](https://drive.google.com/file/d/1G6POSfm8SaYC4ZBgtwkPUq5TDhat1wRN/view?usp=sharing)  
 
 ## How to use
 
